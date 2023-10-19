@@ -39,7 +39,7 @@ Or other example `hm-rpc.1.ABC110022.2.VALUE`:
 * `system.config.`      - System settings, like default language
 * `system.meta.`        - System meta data
 * `system.user.`        - Users
-* `system.group.`       - Groups
+* `system.group.`       - User groups
 * `system.adapter.<adapter-name>` - default config of an adapter
 * `<adapter-name>.`     - objects for specific adapter.
 * `<adapter-name>.meta.` - common meta-data used by all instances of this adapter
@@ -181,7 +181,7 @@ The tree structure is assembled automatically by names. E.g. ```system.adapter.0
 * `config`   - configurations
 * `script`   - scripts
 * `user`     - users
-* `group`    - groups
+* `group`    - Represents a group of users
 * `chart`    - charts
 * `folder`   - a bunch of devices or may be other things.
 * `schedule` - a schedule,e.g. calendar event
